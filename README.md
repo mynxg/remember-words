@@ -6,6 +6,10 @@
 这是一个可以本地存储的、不需要联网的记单词APP，数据库使用的是本地数据库SQLite，
 其他技术就是使用Android画布局，Java实现想法。
 
+模拟器演示：https://www.bilibili.com/video/BV1us4y1x7n1
+
+真机演示：https://www.bilibili.com/video/BV1qD4y1N77D
+
 ## 思路
 
  本来想着
