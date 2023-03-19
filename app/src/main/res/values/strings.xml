@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">记单词</string>
+    <string name="welcome">让我们一起愉快记单词吧！</string>
+    <!--AndroidManifest.xml-->
+    <string name="login_name">登&#12288;录</string>
+    <string name="register">&#12288;&#12288;&#12288;&#12288;&#12288;注&#12288;册</string>
+    <string name="add_name">&#12288;&#12288;&#12288;&#12288;添加单词</string>
+    <string name="update_word_a">修改单词</string>
+    <string name="remember_word">记单词</string>
+    <string name="userCenter">&#12288;&#12288;&#12288;&#12288;用户中心</string>
+    <string name="user_info">&#12288;&#12288;&#12288;&#12288;个人信息</string>
+    <!--activity_login.xml-->
+    <string name="register_button">注&#12288;册</string>
+    <string name="login_button">登&#12288;录</string>
+    <string name="readme">我已阅读并同意 隐私条款 及 服务协议</string>
+    <string name="username_hint">请输入用户名</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="right_now_register">立即注册</string>
+    <string name="confirm_password_hint">请输入再次密码</string>
+    <!--item_list.xml-->
+    <string name="change">修改</string>
+
+    <!--activity_update_user.xml-->
+    <string name="name_hint">请输入昵称</string>
+    <string name="update_email_hint">请输入邮箱</string>
+    <string name="sex_text_view">性&#12288;别：</string>
+    <string name="name_text_view">昵&#12288;称：</string>
+    <string name="college_text_view">学&#12288;校：</string>
+    <string name="update_user_button_text">保存个人信息</string>
+    <string name="username_text">用户名:</string>
+    <string name="male_text">男</string>
+    <string name="female_text">女</string>
+    <string name="email_text_view">邮&#12288;箱：</string>
+    <!--activity_update__word.xml-->
+    <string name="word_input_hint">请输入单词</string>
+    <string name="translate_input_hint">请输入中文</string>
+    <string name="note_input_hint">请输入备注信息，可选</string>
+    <string name="update_word_button">保存单词</string>
+    <string name="word_text_view">单&#12288;词：</string>
+    <string name="translate_text_view">翻&#12288;译：</string>
+    <string name="note_text_view">备&#12288;注：</string>
+
+</resources>

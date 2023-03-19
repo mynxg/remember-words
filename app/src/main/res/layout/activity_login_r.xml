@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="145dp"
+                android:layout_height="76dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp">
+
+                <ImageView
+                    android:id="@+id/loginImageView"
+                    android:layout_width="150dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/new_app" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/r_left"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="165dp">
+
+                <EditText
+                    android:id="@+id/username_input"
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input_shape"
+                    android:ems="19"
+                    android:hint="请输入用户名"
+                    android:inputType="text"
+                    android:padding="15dp"
+                    android:textSize="18sp">
+
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/del_r_username"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/x_circle_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/r_right"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="225dp">
+
+                <EditText
+                    android:id="@+id/password_input"
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/input_shape"
+                    android:ems="19"
+                    android:hint="请输入密码"
+                    android:inputType="textPassword"
+                    android:padding="15dp"
+                    android:textSize="18sp">
+
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/del_r_password"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="295dp"
+                android:layout_marginRight="35dp">
+
+                <TextView
+                    android:id="@+id/register_text"
+                    android:layout_width="85dp"
+                    android:layout_height="28dp"
+                    android:gravity="center_vertical"
+                    android:text="立即注册"
+                    android:textColor="@color/lessGreen"
+                    android:textSize="19sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="335dp">
+
+                <Button
+                    android:id="@+id/login_button"
+                    android:layout_width="330dp"
+                    android:layout_height="50dp"
+                    android:alpha="150"
+                    android:background="@drawable/btn_bg_color"
+                    android:text="登 录"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
