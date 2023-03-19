@@ -10,6 +10,8 @@
 
 真机演示：https://www.bilibili.com/video/BV1qD4y1N77D
 
+app下载：https://nxg.lanzoul.com/ikPCy0qhsmih
+
 ## 思路
 
  本来想着
